@@ -1,0 +1,13 @@
+2025/10/07 20:44:56 🚀 Bitcoin Tracker API starting on port 8080
+2025/10/07 20:44:56 📋 API Documentation:
+2025/10/07 20:44:56    GET    /health                        - Health check
+2025/10/07 20:44:56    GET    /addresses                     - List all tracked addresses
+2025/10/07 20:44:56    POST   /addresses                     - Add new address
+2025/10/07 20:44:56    GET    /addresses/{address}           - Get address details
+2025/10/07 20:44:56    DELETE /addresses/{address}           - Remove address
+2025/10/07 20:44:56    GET    /addresses/{address}/balance   - Get address balance
+2025/10/07 20:44:56    GET    /addresses/{address}/transactions - Get address transactions
+2025/10/07 20:44:56    POST   /addresses/{address}/sync      - Sync specific address
+2025/10/07 20:44:56    POST   /sync                          - Sync all addresses
+2025/10/07 20:44:56 Server startup failed: listen tcp :8080: bind: address already in use
+exit status 1
